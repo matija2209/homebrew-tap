@@ -5,8 +5,8 @@ class Metalkey < Formula
   sha256 "d24bf856a542fffa014b6c4a0da97f1ee4d896ef584e7b79a8bc04f93ec26252"
   license "MIT"
 
-  depends_on "ffmpeg"
   depends_on arch: :arm64
+  depends_on "ffmpeg"
   depends_on macos: :monterey
 
   def install
